@@ -1,7 +1,7 @@
 //para el tipado primer ver lo que regresa en postman y copear,
 //luego en command palette json as code, escribir el nombre del interfaz
 
-export interface MovieDBPlaying {
+export interface MovieDBResponse {
   dates:Dates;
   page:number;
   results:Movie[];
