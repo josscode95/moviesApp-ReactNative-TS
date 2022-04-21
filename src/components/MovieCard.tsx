@@ -23,7 +23,9 @@ export const MovieCard = ({movie, height = 420, width = 300}:IMovieCard) => {
       style={{
         width,
         height,
-        marginHorizontal: 8
+        marginHorizontal: 2,
+        paddingBottom: 20,
+        paddingHorizontal: 5
       }}
     >
       <View style={styles.imageContainer}>
