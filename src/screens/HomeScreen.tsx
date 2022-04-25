@@ -22,7 +22,7 @@ export const HomeScreen = () => {
   const { setMainColors } = useContext(GradientContext)
 
   const getCardColors = async(index:number) => {
-    const movie = nowPlaying[index];
+    const movie = upcomming[index];
     const uri = `https://image.tmdb.org/t/p/w500${movie.poster_path}`;
     const [ primary = '', secondary = ''] = await getImageColors(uri);
     setMainColors({primary, secondary});
